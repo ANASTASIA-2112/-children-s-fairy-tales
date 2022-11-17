@@ -11,7 +11,7 @@ card.forEach(card => {
 
         let xRotation = ((yVal - height/2)/ height) * -20;
         let yRotation = ((xVal - width/2)/ width) * 20;
-        let css = 'perspective(500px) scale(1.1) rotateX(' +
+        let css = 'perspective(500px) scale(1) rotateX(' +
         xRotation +
         'deg) rotateY(' +
         yRotation +
@@ -21,7 +21,7 @@ card.forEach(card => {
     });  
     
     card.addEventListener('mouseout', el => {
-        el.target.style.transform = 'scale(1) rotateX(0) rotateY(0)';
+        el.target.style.transform = 'scale(1.3) rotateX(0) rotateY(0)';
     });
 
     card.addEventListener('click', el => {
