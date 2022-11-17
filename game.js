@@ -21,7 +21,7 @@ card.forEach(card => {
     });  
     
     card.addEventListener('mouseout', el => {
-        el.target.style.transform = 'scale(1) rotateX(0) rotateY(0)';
+        el.target.style.transform = 'scale(1.3) rotateX(0) rotateY(0)';
     });
 
     card.addEventListener('click', el => {
