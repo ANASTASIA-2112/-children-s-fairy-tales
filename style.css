@@ -3,7 +3,7 @@
 }
 
 body {
-    height: 50vh;
+    height: 340vh;
     display: flex;
     background: radial-gradient(at center, #98aee1, #fff);
     justify-content: center;
@@ -20,7 +20,7 @@ body {
 
 .card {
     width: 250px;
-    height: 100px;
+    height: 150px;
     margin:  0 30px 60px;
 }
 
