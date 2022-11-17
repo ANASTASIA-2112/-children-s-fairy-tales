@@ -4,7 +4,7 @@
 }
 
 body {
-    height: 340vh;
+    height: 300vh;
     display: flex;
     background: radial-gradient(at center, #98aee1, #fff);
     justify-content: center;
@@ -21,7 +21,6 @@ body {
 
 .card {
     width: 250px;
-    height: 350px;
     margin:  0 30px 60px;
 }
 
