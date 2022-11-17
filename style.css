@@ -4,7 +4,7 @@
 }
 
 body {
-    height: 200vh;
+    height: 340vh;
     display: flex;
     background: radial-gradient(at center, #98aee1, #fff);
     justify-content: center;
