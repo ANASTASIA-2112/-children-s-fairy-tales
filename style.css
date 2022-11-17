@@ -4,7 +4,7 @@
 }
 
 body {
-    height: 300vh;
+    height: 200vh;
     display: flex;
     background: radial-gradient(at center, #98aee1, #fff);
     justify-content: center;
@@ -26,7 +26,6 @@ body {
 }
 
 .card img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
     transition: .1s;
