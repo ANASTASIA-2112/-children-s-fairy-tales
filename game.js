@@ -11,7 +11,7 @@ card.forEach(card => {
 
         let xRotation = ((yVal - height/2)/ height) * -20;
         let yRotation = ((xVal - width/2)/ width) * 20;
-        let css = 'perspective(500px) scale(1.1) rotateX(' +
+        let css = 'perspective(500px) scale(1) rotateX(' +
         xRotation +
         'deg) rotateY(' +
         yRotation +
