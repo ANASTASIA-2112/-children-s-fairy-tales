@@ -27,7 +27,7 @@ body {
 .card img {
     height: 100%;
     object-fit: cover;
-    transition: .1s;
+    transition: .30s;
     border-radius: 25px;
 }
 
